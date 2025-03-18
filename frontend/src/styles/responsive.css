@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+    .container {
+      width: 100%;
+      padding: 0 20px;
+    }
+  
+    header .container, footer .container {
+      text-align: center;
+      flex-direction: column;
+    }
+  
+    header nav ul {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    header nav ul li {
+      margin-bottom: 10px;
+    }
+  }
+  

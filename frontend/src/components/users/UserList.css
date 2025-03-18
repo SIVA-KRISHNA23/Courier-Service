@@ -1,0 +1,104 @@
+.user-list {
+  margin-top: 20px;
+}
+
+.user-list .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-list h2 {
+  margin-bottom: 20px;
+}
+
+.user-list .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-list .header .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.user-list .header .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.user-list .header .btn-secondary {
+  background-color: #6c757d;
+}
+
+.user-list .header .btn:hover {
+  background-color: #0056b3;
+}
+
+.user-list .header .btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.user-list .user-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.user-list .user-item {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 20px;
+  width: calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+
+.user-list .user-item h3 {
+  margin-top: 0;
+}
+
+.user-list .user-item p {
+  margin: 10px 0 0;
+  color: #666;
+}
+
+.user-list .actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.user-list .actions .edit-link {
+  color: #007bff;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.user-list .actions .edit-link:hover {
+  text-decoration: underline;
+}
+
+.user-list .actions .delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.user-list .actions .delete-button:hover {
+  background-color: #c82333;
+}

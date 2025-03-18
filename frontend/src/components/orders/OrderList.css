@@ -1,0 +1,105 @@
+.order-list {
+  margin-top: 20px;
+}
+
+.order-list .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-list h2 {
+  margin-bottom: 20px;
+}
+
+.order-list .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.order-list .header .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.order-list .header .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.order-list .header .btn-secondary {
+  background-color: #6c757d;
+}
+
+.order-list .header .btn:hover {
+  background-color: #0056b3;
+}
+
+.order-list .header .btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.order-list .order-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.order-list .order-item {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 20px;
+  width: calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+
+.order-list .order-item h3 {
+  margin-top: 0;
+}
+
+.order-list .order-item p {
+  margin: 10px 0 0;
+  color: #666;
+}
+
+.order-list .actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.order-list .actions .edit-link {
+  color: #007bff;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.order-list .actions .edit-link:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+}
+
+.order-list .actions .delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.order-list .actions .delete-button:hover {
+  background-color: #c82333;
+}

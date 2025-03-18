@@ -1,0 +1,53 @@
+/* src/components/users/SignInForm.css */
+
+.signin-form-container {
+    max-width: 400px; /* Adjusted max-width for a more compact form */
+    margin: 20px auto;
+    padding: 30px; /* Increased padding for better spacing */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Rounded corners for a softer look */
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+  }
+  
+  .signin-form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px; /* Larger font size for heading */
+    color: #333; /* Darkened text color for better contrast */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: calc(100% - 24px); /* Adjusted width to accommodate padding and border */
+    padding: 12px; /* Increased padding for input fields */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  

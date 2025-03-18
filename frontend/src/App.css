@@ -1,0 +1,11 @@
+/* src/App.css */
+.main-content {
+    min-height: calc(100vh - 120px); /* Adjust the value to match your header and footer height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-content > .MuiContainer-root {
+    flex: 1;
+  }
+  

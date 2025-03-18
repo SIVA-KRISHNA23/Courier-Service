@@ -1,0 +1,69 @@
+.show-all-orders .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .show-all-orders h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .orders-table th,
+  .orders-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .orders-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .orders-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .orders-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .orders-table .actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .orders-table .edit-link {
+    text-decoration: none;
+    padding: 5px 10px; /* Added padding to match button style */
+    background-color: #007bff; /* Background color */
+    color: #fff; /* Text color */
+    border-radius: 5px; /* Border radius */
+  }
+  
+  .orders-table .edit-link:hover {
+    background-color: #0056b3; /* Change to darker blue on hover */
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
+  .orders-table .delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .orders-table .delete-button:hover {
+    background-color: #c82333;
+  }
+  

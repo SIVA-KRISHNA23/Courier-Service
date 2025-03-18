@@ -1,0 +1,32 @@
+/* src/components/About.module.css */
+
+.sectionContainer {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .sectionHeading {
+    margin-bottom: 20px;
+    color: #1976d2; /* Primary color */
+  }
+  
+  .sectionContent {
+    margin-top: 20px;
+    line-height: 1.6;
+    color: #555; /* Text color */
+  }
+  
+  .styledPaper {
+    padding: 20px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .styledPaper:hover {
+    transform: translateY(-5px); /* Lift up on hover */
+  }
+  
